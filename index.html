@@ -3,7 +3,7 @@
 
 <head>
    <meta charset="UTF-8">
-   <title>The Wright Files</title>
+   <title>The Agent Sherlock</title>
    <link rel="icon" type="image/png" sizes="32x32" href="C:\Users\MAHEE\Desktop\The-Wright-Files-Murder-Mystery-Game-master\assets\images\download.png">
    <!-- jQuery -->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -29,21 +29,22 @@
 
 
 <div class="container">
-       
-  <div id="mpopupBox" class="mpopup" align="center" style="display: none;">
+       ::before
+  <div id="mpopupBox" class="mpopup" align="center">
     <div class="mpopup-content">
         <div class="row">
             <div class="col-sm-12 center-block" "="">
-              <button id="gamerules" class="btn btn-primary center-block " style="display: none;">Study the Case</button>
+              <button id="gamerules" class="btn btn-primary center-block ">Study the Case</button>
             </div>
         </div>
         <div class="row ">
             <div class="col-sm-12 center-block ">
-              <button id="start" class="btn btn-primary center-block " style="display: none;">Interview Suspects</button>
+              <button id="start" class="btn btn-primary center-block ">Interview Suspects</button>
             </div>
         </div>
     </div>
 </div>
+
 <!--Working on pop up modal for invalid response-->
 <div class="container">
   <div id="invalidModal" class="modal fade">
@@ -66,10 +67,10 @@
 </div>
 <div class="container">   
     <div class="jumbotron">
-      <h1 class="text-center gameTitle"><img class="brand" src="assets/css/images/sherlock.png" style="width:50px">The Wright Files</h1>
+      <h1 class="text-center gameTitle"><img class="brand" src="assets/css/images/sherlock.png" style="width:50px">The Agent Sherlock</h1>
       <form>
        <div class="form-group">
-        <label for="guess">Have a guess? Declare your suspect:</label>
+        <label for="guess">Predicted the one? Declare your suspect:</label>
         <input class="form-control" id="userGuess" type="text" placeholder="Enter Full Name"> 
         </div>
         <button class="btn btn-primary" id="submit" type="button">Submit</button>
@@ -82,16 +83,17 @@
         <div class="col-md-12 textHolder">
         <div id="text"><h5 id="clickimagetetxt"></h5></div>
         <div id="buttons">
-		<input type="image" class="suspects" id="suspect1" src="./assets/images/suspect1.png" style="">
+		<!-- <input type="image" class="suspects" id="suspect1" src="./assets/images/suspect1.png" style=""> 
 		<input type="image" class="suspects" id="suspect2" src="./assets/images/suspect2.png" style="">
-		<input type="image" class="suspects" id="suspect3" src="./assets/images/suspect3.png" style="">
+		<input type="image" class="suspects" id="suspect3" src="./assets/images/suspect3.png" style=""> -->
 		</div>
       </div>
     </div>
       <div class="col-md-6 ">
         <div class="col-md-12 imageHolder" id="rulesAndscenario">
-          <div id="rules"><h3>Bio - Annie Parker</h3><h5><span id="bio">She lives in the apartment across from Harris and has been seen several times watching him from her window sill. She has no ties to Harris other than being his neighbor. She is struggling through debt yet managing to have a place to stay in somehow.</span></h5><br><br></div>
-          <div id="scenario"><h3>Interview Questions</h3><h5>Question1: <span id="question1">Why do you watch Harris?</span></h5><h5>Answer1: <span id="answer1">I like watching him make art. It’s beautiful. Even when he is not making art I’m curious."</span></h5><br><h5>Question2: <span id="question2">While watching him has anything suspicious occurred?</span></h5><h5>Answer2: <span id="answer2">A man very fond of his artwork kept approaching me asking me what the next sculpture was that he was making. I assumed it was his competitor trying to get ahead in the competition. "</span></h5><br><h5>Question3: <span id="question3">Did you kill Harris?</span></h5><h5>Answer3: <span id="answer3">Nope.  </span></h5><p></p><button id="previous" style="float:right">Study Case</button></div>
+         <div id="rules"><!--<h3>Bio - Annie Parker</h3><h5><span id="bio">She lives in the apartment across from Harris and has been seen several times watching him from her window sill. She has no ties to Harris other than being his neighbor. She is struggling through debt yet managing to have a place to stay in somehow.</span></h5><br><br>--></div> 
+          <div id="scenario"> <!--<h3>Interview Questions</h3><h5>Question1: <span id="question1">Why do you watch Harris?</span></h5><h5>Answer1: <span id="answer1">I like watching him make art. It’s beautiful. Even when he is not making art I’m curious."</span></h5><br><h5>Question2: <span id="question2">While watching him has anything suspicious occurred?</span></h5><h5>Answer2: <span id="answer2">A man very fond of his artwork kept approaching me asking me what the next sculpture was that he was making. I assumed it was his competitor trying to get ahead in the competition. "</span></h5><br><h5>Question3: <span id="question3">Did you kill Harris?</span></h5><h5>Answer3: <span id="answer3">Nope.-->
+          <!--</h5><p></p><button id="previous" style="float:right">Study Case</button></div> -->
         </div>
       </div>
     </div>

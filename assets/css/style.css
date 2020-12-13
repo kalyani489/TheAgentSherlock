@@ -1,5 +1,5 @@
 body {
-    background-image: url("images/brickResize.jpg");
+    background-image: url("images/Background.jpg");
     background-repeat: repeat;
 }
 
@@ -25,7 +25,7 @@ br {
 
 .textHolder {
     background-color: #ffcccc;
-    background-image: url("images/bulletinResize.jpg");
+    background-image: url("images/bulletinpaper.jpg");
     background-repeat: repeat;
     border: #2e1a12 solid 8px;
     -webkit-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 1);
@@ -37,15 +37,15 @@ br {
 }
 
 .imageHolder {
-    background-color: #ffcccc;
-    background-image: url("images/ricePaper.png");
+    background-color: #666363;
+    background-image: url("images/ricePaper2.png");
     background-repeat: repeat;
     height: 600px;
     padding: 5%;
     color: black;
     font-size: 1.5em;
     margin-bottom: 5%;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 5px 5px 5px white;
 }
 
 .jumbotron {
